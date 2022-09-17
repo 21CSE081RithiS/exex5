@@ -1,0 +1,86 @@
+EXP5
+package pkgpackage;
+
+
+public class Package {
+
+   
+    public static void main(String[] args) {
+  
+  
+calculator obje =new calculator();
+obje.calculate();
+scientificcalculator obj1 =new scientificcalculator();
+obj1.scicalculate();
+
+
+    }
+}
+
+
+class calculator{
+   public void calculate() {
+    System.out.println("class calculator is created");
+}
+}
+class scientificcalculator{
+   public void scicalculate() {
+    System.out.println(" class scientific calculator is created");
+}
+}
+
+EXP5.2
+package package1;
+
+import package2.pack1;
+import package3.pack2;
+import package4.pack3;
+
+public class ex5 {
+  public static void main(String args[])
+  {
+    ex5 obj=new ex5();
+      obj.pack();
+    pack1 obj1=new pack1();
+      obj1.pack1();
+    pack2 obj2=new pack2();
+      obj2.pack2();
+    pack3 obj3=new pack3();
+      obj3.pack3();
+  }
+    void pack()
+    {
+        System.out.println("PACKAGE IS CREATED");
+    }
+}
+
+EXP5.3
+package pkgpackage;
+
+
+public class Package {
+
+   
+    public static void main(String[] args) {
+  
+  
+calculator obje =new calculator();
+obje.calculate();
+scientificcalculator obj1 =new scientificcalculator();
+obj1.scicalculate();
+
+
+    }
+}
+
+
+class calculator{
+   public void calculate() {
+    System.out.println("class calculator is created");
+}
+}
+class scientificcalculator{
+   public void scicalculate() {
+    System.out.println(" class scientific calculator is created");
+}
+}
